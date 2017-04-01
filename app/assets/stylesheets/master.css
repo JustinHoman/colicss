@@ -78,43 +78,6 @@ a {
   font-size: 0;
   line-height: 0;
 }
-.pakketten {
-  text-align: justify;
-}
-
-.pakket {
-  display: inline-block;
-  text-align: center;
-  padding: 50px;
-  font-size: 20px;
-}
-.bronze {
-  border: solid #cd7f32 10px;
-  border-radius: 10px;
-}
-
-.silver {
-  border: solid silver 10px;
-  border-radius: 10px;
-}
-
-.gold {
-  border: solid gold 10px;
-  border-radius: 10px;
-}
-
-.pakket1 {
-  margin-right: auto;
-}
-
-.pakket2 {
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.pakket3 {
-  margin-left: auto;
-}
 
 .material-icons {
   font-family: 'Material Icons';

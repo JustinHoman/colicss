@@ -18,19 +18,50 @@
   </nav>
 </header>
 
-<main class="container">
-  <div>
+<main class="pakketten container">
+  <div class="intro">
     <h2>Cloud pakketten</h2>
     <p>Hieronder kunt u de 3 cloud pakketten die wij aanbieden bekijken en met elkaar vergelijken.</p>
   </div>
 
-  <div class="pakket1">
-
+  <div class="pakket pakket1">
+    <h3>Pakket Geel</h3>
+    <ul class="list-no-dec">
+      <li>
+        <p>10 GB Opslag</p>
+      </li>
+    </ul>
+    <br>
+    <strong>€4 per maand</strong>
+    <br>
+    <br>
+    <p><%= link_to("Bestellen", '/hosting', :class => "button") %></p>
   </div>
-  <div class="pakket2">
-
+  <div class="pakket pakket2">
+    <h3>Pakket Oranje</h3>
+    <ul class="list-no-dec">
+      <li>
+        <p>100 GB Opslag</p>
+      </li>
+    </ul>
+    <br>
+    <strong>€6 per maand</strong>
+    <br>
+    <br>
+    <p><%= link_to("Bestellen", '/hosting', :class => "button") %></p>
   </div>
-  <div class="pakket3">
-
+  <div class="pakket pakket3">
+    <h3>Pakket Groen</h3>
+    <ul class="list-no-dec">
+      <li>
+        <p>1 TB Opslag</p>
+      </li>
+    </ul>
+    <br>
+    <strong>€10 per maand</strong>
+    <br>
+    <br>
+    <p><%= link_to("Bestellen", '/hosting', :class => "button") %></p>
   </div>
+  <span class="strech"></span>
 </main>
