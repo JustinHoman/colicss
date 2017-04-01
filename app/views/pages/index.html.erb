@@ -13,6 +13,7 @@
         <li class="button"><%= link_to("Reviews", '/reviews')%></li>
         <li class="button"><%= link_to("Social", '/social')%></li>
         <li class="button"><%= link_to("Contact", '/contact')%></li>
+        <li class="button"><i class="fa fa-shopping-cart" aria-hidden="true"></i><%= link_to("  #{current_order.order_items.size}", '/cart')%></li>
       </ul>
     </div>
   </nav>
