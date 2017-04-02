@@ -11,6 +11,8 @@
 
 .left-text {
   text-align: left;
+  border-spacing: 20px;
+  border-collapse: separate;
 }
 
 .pakket1 {
