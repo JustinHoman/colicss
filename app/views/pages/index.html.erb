@@ -33,5 +33,8 @@
 </main>
 
 <footer>
-
+  <% @products.each do |p| %>
+    <%= p.name %>
+    <%= p.ram %>
+  <% end %>
 </footer>
