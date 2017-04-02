@@ -7,4 +7,8 @@ module ApplicationHelper
       page_title + " | " + base_title
     end
   end
+
+  def active(action)
+    params[:action] == action ? "active" :  nil
+  end
 end

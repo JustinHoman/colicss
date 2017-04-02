@@ -1,0 +1,18 @@
+<header>
+  <nav class="container">
+    <div class="left">
+      <ul class="inline_ul"><li class="logo"><a href="" title="Terug naar de homepage">ColiCSS</a></li><ul>
+    </div>
+
+    <div class="right">
+      <ul class="inline_ul">
+        <li class="button <%=active('index')%>"><%= link_to("Home", '/')%></li>
+        <li class="button <%=active('hosting')%>"><%= link_to("Hosting", '/hosting')%></li>
+        <li class="button <%=active('cloud')%>"><%= link_to("Cloud", '/cloud')%></li>
+        <li class="button <%=active('reviews')%>"><%= link_to("Reviews", '/reviews')%></li>
+        <li class="button <%=active('social')%>"><%= link_to("Social", '/social')%></li>
+        <li class="button <%=active('contact')%>"><%= link_to("Contact", '/contact')%></li>
+      </ul>
+    </div>
+  </nav>
+</header>
