@@ -24,41 +24,37 @@
     <p>Hieronder kunt u de 3 cloud pakketten die wij aanbieden bekijken en met elkaar vergelijken.</p>
   </div>
 
-  <div class="geel pakket pakket1">
-    <h3>Pakket Geel</h3>
-    <ul class="list-no-dec">
-      <li>
-        <p>10 GB Opslag</p>
-      </li>
-    </ul>
+  <div class="pakket pakket1 geel">
+    <h3><%= @geel.name %></h3>
+    <table class="left-text">
+      <tr><th>Opslag</th><td><%= @geel.storage %> HDD</td></tr>
+    </table>
     <br>
-    <strong>€4 per maand</strong>
+    <strong>€ <%= @geel.price %> per maand</strong>
     <br>
     <br>
     <p><%= link_to("Bestellen", '/hosting', :class => "button") %></p>
   </div>
-  <div class="oranje pakket pakket2">
-    <h3>Pakket Oranje</h3>
-    <ul class="list-no-dec">
-      <li>
-        <p>100 GB Opslag</p>
-      </li>
-    </ul>
+
+  <div class="pakket pakket2 oranje">
+    <h3><%= @oranje.name %></h3>
+    <table class="left-text">
+      <tr><th>Opslag</th><td><%= @oranje.storage %> HDD</td></tr>
+    </table>
     <br>
-    <strong>€6 per maand</strong>
+    <strong>€ <%= @oranje.price %> per maand</strong>
     <br>
     <br>
     <p><%= link_to("Bestellen", '/hosting', :class => "button") %></p>
   </div>
+
   <div class="groen pakket pakket3">
-    <h3>Pakket Groen</h3>
-    <ul class="list-no-dec">
-      <li>
-        <p>1 TB Opslag</p>
-      </li>
-    </ul>
+    <h3><%= @groen.name %></h3>
+    <table class="left-text">
+      <tr><th>Opslag</th><td><%= @groen.storage %> HDD</td></tr>
+    </table>
     <br>
-    <strong>€10 per maand</strong>
+    <strong>€ <%= @groen.price %> per maand</strong>
     <br>
     <br>
     <p><%= link_to("Bestellen", '/hosting', :class => "button") %></p>

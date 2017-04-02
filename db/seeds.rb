@@ -5,4 +5,6 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
-Product.find_by(name: "Brons").update(ram: "512 MB")
+Product.find_by(name: "Brons").update(data: "100 GB per maand")
+Product.find_by(name: "Silver").update(data: "200 GB per maand")
+Product.find_by(name: "Goud").update(data: "Onbeperkt")

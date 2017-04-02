@@ -30,7 +30,7 @@
       <tr><th>HDD</th><td><%= @bronze.storage %></td></tr>
       <tr><th>RAM</th><td><%= @bronze.ram %></td></tr>
       <tr><th>Cores</th><td><%= @bronze.cores %></td></tr>
-      <tr><th>Dataverkeer</th><td><%= @bronze.storage %></td></tr>
+      <tr><th>Dataverkeer</th><td><%= @bronze.data %></td></tr>
     </table>
     <br>
     <strong>€ <%= @bronze.price %> per maand</strong>
@@ -38,27 +38,14 @@
     <br>
     <p><%= link_to("Bestellen", '/hosting', :class => "button") %></p>
   </div>
-  <div class="pakket pakket2 silver">
-    <h3><%= @silver.name %></h3>
-    <table class="left-text">
-      <tr><th>HDD</th><td><%= @silver.storage %></td></tr>
-      <tr><th>RAM</th><td><%= @silver.ram %></td></tr>
-      <tr><th>Cores</th><td><%= @silver.cores %></td></tr>
-      <tr><th>Dataverkeer</th><td><%= @silver.storage %></td></tr>
-    </table>
-    <br>
-    <strong>€ <%= @silver.price %> per maand</strong>
-    <br>
-    <br>
-    <p><%= link_to("Bestellen", '/hosting', :class => "button") %></p>
-  </div>
-  <div class="pakket pakket3 gold">
+
+  <div class="pakket pakket2 gold">
     <h3><%= @goud.name %></h3>
     <table class="left-text">
       <tr><th>HDD</th><td><%= @goud.storage %></td></tr>
       <tr><th>RAM</th><td><%= @goud.ram %></td></tr>
       <tr><th>Cores</th><td><%= @goud.cores %></td></tr>
-      <tr><th>Dataverkeer</th><td><%= @goud.storage %></td></tr>
+      <tr><th>Dataverkeer</th><td><%= @goud.data %></td></tr>
     </table>
     <br>
     <strong>€ <%= @goud.price %> per maand</strong>
@@ -66,5 +53,21 @@
     <br>
     <p><%= link_to("Bestellen", '/hosting', :class => "button") %></p>
   </div>
+
+  <div class="pakket pakket3 silver">
+    <h3><%= @silver.name %></h3>
+    <table class="left-text">
+      <tr><th>HDD</th><td><%= @silver.storage %></td></tr>
+      <tr><th>RAM</th><td><%= @silver.ram %></td></tr>
+      <tr><th>Cores</th><td><%= @silver.cores %></td></tr>
+      <tr><th>Dataverkeer</th><td><%= @silver.data %></td></tr>
+    </table>
+    <br>
+    <strong>€ <%= @silver.price %> per maand</strong>
+    <br>
+    <br>
+    <p><%= link_to("Bestellen", '/hosting', :class => "button") %></p>
+  </div>
+
   <span class="strech"></span>
 </main>

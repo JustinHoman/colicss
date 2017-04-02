@@ -10,6 +10,8 @@ class PagesController < ApplicationController
   end
 
   def cloud
-    @cloud = Product.find_by product_type: 'Cloud'
+    @geel = Product.find(4)
+    @oranje = Product.find(5)
+    @groen = Product.find(6)
   end
 end
