@@ -33,8 +33,13 @@
 </main>
 
 <footer>
-  <% @products.each do |p| %>
+  <% @product.each do |p| %>
     <%= p.name %>
     <%= p.ram %>
+    <%= p.product_type %>
+    <%= p.storage %>
+    <%= p.cores %>
+    <%= p.price %>
+    <br>
   <% end %>
 </footer>

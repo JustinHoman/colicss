@@ -25,43 +25,43 @@
   </div>
 
   <div class="pakket pakket1 bronze">
-    <h3>Pakket Brons</h3>
-    <ul class="list-no-dec">
-      <li><p>10GB HHD</p></li>
-      <li><p>512 MB RAM</p></li>
-      <li><p>1 Core</p></li>
-      <li><p>100 GB-dataverkeer per maand</p></li>
-    </ul>
+    <h3><%= @bronze.name %></h3>
+    <table class="left-text">
+      <tr><th>HDD</th><td><%= @bronze.storage %></td></tr>
+      <tr><th>RAM</th><td><%= @bronze.ram %></td></tr>
+      <tr><th>Cores</th><td><%= @bronze.cores %></td></tr>
+      <tr><th>Dataverkeer</th><td><%= @bronze.storage %></td></tr>
+    </table>
     <br>
-    <strong>€5,95 per maand</strong>
+    <strong>€ <%= @bronze.price %> per maand</strong>
     <br>
     <br>
     <p><%= link_to("Bestellen", '/hosting', :class => "button") %></p>
   </div>
   <div class="pakket pakket2 silver">
-    <h3>Pakket Silver</h3>
-    <ul class="list-no-dec">
-      <li><p>10GB HHD</p></li>
-      <li><p>512 MB RAM</p></li>
-      <li><p>1 Core</p></li>
-      <li><p>100 GB-dataverkeer per maand</p></li>
-    </ul>
+    <h3><%= @silver.name %></h3>
+    <table class="left-text">
+      <tr><th>HDD</th><td><%= @silver.storage %></td></tr>
+      <tr><th>RAM</th><td><%= @silver.ram %></td></tr>
+      <tr><th>Cores</th><td><%= @silver.cores %></td></tr>
+      <tr><th>Dataverkeer</th><td><%= @silver.storage %></td></tr>
+    </table>
     <br>
-    <strong>€5,95 per maand</strong>
+    <strong>€ <%= @silver.price %> per maand</strong>
     <br>
     <br>
     <p><%= link_to("Bestellen", '/hosting', :class => "button") %></p>
   </div>
   <div class="pakket pakket3 gold">
-    <h3>Pakket Goud</h3>
-    <ul class="list-no-dec">
-      <li><p>10GB HHD</p></li>
-      <li><p>512 MB RAM</p></li>
-      <li><p>1 Core</p></li>
-      <li><p>100 GB-dataverkeer per maand</p></li>
-    </ul>
+    <h3><%= @goud.name %></h3>
+    <table class="left-text">
+      <tr><th>HDD</th><td><%= @goud.storage %></td></tr>
+      <tr><th>RAM</th><td><%= @goud.ram %></td></tr>
+      <tr><th>Cores</th><td><%= @goud.cores %></td></tr>
+      <tr><th>Dataverkeer</th><td><%= @goud.storage %></td></tr>
+    </table>
     <br>
-    <strong>€5,95 per maand</strong>
+    <strong>€ <%= @goud.price %> per maand</strong>
     <br>
     <br>
     <p><%= link_to("Bestellen", '/hosting', :class => "button") %></p>

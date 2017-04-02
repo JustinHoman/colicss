@@ -5,6 +5,4 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
-Product.destroy_all
-
-Product.create!(id: "1", name: "Bronze", product_type: "Hosting", ram: "512 MB", storage: "10 GB", cores: "1 Core", price: "5,95")
+Product.find_by(name: "Brons").update(ram: "512 MB")

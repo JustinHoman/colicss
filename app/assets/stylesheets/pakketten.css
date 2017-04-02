@@ -9,6 +9,10 @@
   font-size: 20px;
 }
 
+.left-text {
+  text-align: left;
+}
+
 .pakket1 {
   margin-right: auto;
 }
