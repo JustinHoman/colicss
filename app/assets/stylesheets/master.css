@@ -19,6 +19,11 @@ a {
   color: white;
 }
 
+textarea {
+  resize: none;
+  font-family: inherit;
+}
+
 .button {
   background-color: #673ab7;
 }
