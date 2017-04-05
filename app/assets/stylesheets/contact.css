@@ -1,0 +1,16 @@
+.contact {
+  padding-top: 10px;
+}
+
+.contact input {
+  width: 250px;
+}
+
+.contact textarea {
+  width: 250px;
+}
+
+.button input {
+  border: solid white 0;
+  text-transform: capitalize;
+}

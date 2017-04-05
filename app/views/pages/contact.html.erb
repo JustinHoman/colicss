@@ -1,10 +1,15 @@
 <% provide(:title, "Contact") %>
-<main class="container">
+<main class="contact container">
+  <center>
   <form action="">
-    <label>Naam: </label><input type="text" name="naam" placeholder="Jan Janssen" required autofocus>
-    <label>E-mail:</label><input type="email" name="mail" placeholder="info@colicss.nl" required>
-    <textarea name="bericht" rows="8" cols="10">Hallo ColiCSS,
-    </textarea>
-    <input type="submit" name="verzend" value="Versturen">
+    <table>
+      <tr><td><label>Naam: </label></td><td><input type="text" name="naam" placeholder="Jan Janssen" required autofocus></td></tr>
+      <tr><td><label>E-mail:</label></td><td><input type="email" name="mail" placeholder="info@colicss.nl" required></td></tr>
+      <tr><td></td><td><textarea name="bericht" rows="8" cols="25">Hallo ColiCSS,</textarea></td></tr>
+      <tr><td></td><td><input class="button" type="submit" name="verzend" value="Versturen"></td></tr>
+    </table>
   </form>
+  </center>
+
+  <hr>
 </main>
