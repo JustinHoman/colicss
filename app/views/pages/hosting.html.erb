@@ -18,7 +18,7 @@
     <strong>€ <%= @bronze.price %> per maand</strong>
     <br>
     <br>
-    <p><%= link_to("Bestellen", hosting_path, :class => "button") %></p>
+    <p><%= link_to("Bestellen", hosting_path, :class => "button", :value => "Geel", :onClick => "addToCard('Bronze')") %></p>
   </div>
 
   <div class="pakket pakket2 gold">
@@ -33,7 +33,7 @@
     <strong>€ <%= @goud.price %> per maand</strong>
     <br>
     <br>
-    <p><%= link_to("Bestellen", hosting_path, :class => "button") %></p>
+    <p><%= link_to("Bestellen", hosting_path, :class => "button", :value => "Geel", :onClick => "addToCard('Goud')") %></p>
   </div>
 
   <div class="pakket pakket3 silver">
@@ -48,7 +48,7 @@
     <strong>€ <%= @silver.price %> per maand</strong>
     <br>
     <br>
-    <p><%= link_to("Bestellen", hosting_path, :class => "button") %></p>
+    <p><%= link_to("Bestellen", hosting_path, :class => "button", :value => "Geel", :onClick => "addToCard('Zilver')") %></p>
   </div>
 
   <span class="strech"></span>
